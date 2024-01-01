@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:gravity="center_vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:orientation="vertical">
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="center"
         android:gravity="center_vertical"
-        android:layout_gravity="center">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SkyID IndataCore"
-            android:gravity="center"
             android:layout_gravity="center"
-            android:textSize="32dp"/>
+            android:gravity="center"
+            android:text="SkyID IndataCore"
+            android:textSize="32dp" />
+
         <Button
             android:id="@+id/button_DocOcerization"
             android:layout_width="fill_parent"
@@ -54,43 +55,43 @@
             android:id="@+id/textView_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="18sp"
-            android:layout_gravity="center" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="18sp"
-            android:layout_gravity="center" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="VOVE ID"
-            android:gravity="center"
-            android:layout_marginTop="24dp"
             android:layout_gravity="center"
-            android:visibility="visible"
-            android:textSize="32dp"/>
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="VOVE ID"
+            android:textSize="32dp"
+            android:visibility="visible" />
 
 
         <EditText
             android:id="@+id/tokenEText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
             android:layout_margin="8dp"
-            android:visibility="gone"
-            android:hint="Token" />
+            android:ems="10"
+            android:hint="Token"
+            android:inputType="text"
+            android:visibility="gone" />
 
         <Button
-            android:id="@+id/buttonVoveId"
+            android:id="@+id/buttonVoveidId"
             android:layout_width="fill_parent"
             android:layout_height="60dp"
             android:layout_gravity="center"
@@ -99,11 +100,39 @@
             android:foregroundGravity="center|center_horizontal"
             android:gravity="center"
             android:text="Verification Session"
-            android:visibility="visible"
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="18sp"
-            android:textStyle="normal|bold" />
+            android:textStyle="normal|bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="SHAREID"
+            android:textSize="32dp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonShareidId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="56dp"
+            android:layout_marginEnd="56dp"
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Verification shareId Session"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible" />
+
 
     </LinearLayout>
 </ScrollView>
+// Auto-generated at 2024-01-01 22:13:15
