@@ -14,6 +14,7 @@ import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -55,8 +56,9 @@ object RemoteDataSourceModule {
         }
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://sandbox.voveid.com/")
+            .baseUrl("https://sandbox.voveid.com/" )
             .addConverterFactory(json.asConverterFactory(contentType))
+            .addConverterFactory(GsonConverterFactory.create())
             .client(httpClient)
             .build()
 

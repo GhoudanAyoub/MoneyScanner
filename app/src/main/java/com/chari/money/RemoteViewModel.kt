@@ -12,12 +12,14 @@ class RemoteViewModel @Inject constructor(
     private val verificationService: VerificationService
 ) : ViewModel() {
 
-//    fun verificationToken(uuid: String): LiveData<Response<TokenResponse>> {
-//        return liveData {
-//            verificationService.verificationToken(TokenRequest(uuid))
-//                .collect { result ->
-//                    emit(result)
-//                }
-//        }
-//    }
+    fun verificationToken(uuid: String): LiveData<Response<TokenResponse>> {
+        return liveData {
+            var result = verificationService.verificationToken(TokenRequest(uuid))
+            if (result.isSuccessful) {
+                emit(result)
+            } else {
+                emit(Response.error(result.code(), result.errorBody()!!))
+            }
+        }
+    }
 }

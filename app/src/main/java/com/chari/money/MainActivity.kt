@@ -31,6 +31,7 @@ import com.indatacore.skyAnalytics.skyID.tools.Language
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
+import kotlinx.coroutines.flow.Flow
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
@@ -133,54 +134,10 @@ class MainActivity : AppCompatActivity() {
         btn2.setOnClickListener { launchFaceActivity() }
 
         val btn3: Button = findViewById(R.id.buttonVoveId)
-        btn3.setOnClickListener { main() }
-    }
-
-    fun main() {
-        val contentType = "application/json".toMediaType()
-        val json = Json {
-            isLenient = true
-            ignoreUnknownKeys = true
-            encodeDefaults = true
-            explicitNulls = false
+        btn3.setOnClickListener {
+            btn3.isEnabled = false
+            launchVerificationActivity()
         }
-        // Create Retrofit instance
-        val retrofit = Retrofit.Builder()
-            .baseUrl("https://sandbox.voveid.com/")
-            .addConverterFactory(json.asConverterFactory(contentType))
-            .client(httpClient)
-            .build()
-
-        // Create API service
-        val apiService = retrofit.create(VerificationService::class.java)
-
-        // Create the request body
-        val sessionRequest = TokenRequest(refId = "f0692ed4-asd2-qwe1-asd3-5a45547b2aa8")
-
-        // Make the API call
-        val call = apiService.verificationToken(sessionRequest)
-        call.enqueue(object : Callback<TokenResponse> {
-            override fun onResponse(
-                call: Call<TokenResponse>,
-                response: retrofit2.Response<TokenResponse>
-            ) {
-                if (response.isSuccessful) {
-                    val token = response.body()?.token
-                    Log.e("MainActivity", "Token: $token")
-                    when (response.code()) {
-                        201 -> {
-                            token?.let { starVoveSession(it) }
-                        }
-                    }
-                } else {
-                    Log.e("MainActivity", "Error: ${response.errorBody()}")
-                }
-            }
-
-            override fun onFailure(call: Call<TokenResponse>, t: Throwable) {
-                Log.e("MainActivity", "Error: ${t.printStackTrace()}")
-            }
-        })
     }
 
     private fun launchVerificationActivity() {
@@ -188,19 +145,19 @@ class MainActivity : AppCompatActivity() {
         val uuid = java.util.UUID.randomUUID().toString()
 
         //Get token
-//        viewModel.verificationToken(uuid).observe(this) { result ->
-//            if (result.isSuccessful) {
-//                when (result.code()) {
-//                    200 -> {
-//                        result.body()?.let { starVoveSession(it.token) }
-//                    }
-//                }
-//            }
-//        }
+        viewModel.verificationToken(uuid).observe(this) { result ->
+            if (result.isSuccessful) {
+                result.body()?.let { starVoveSession(it.token) }
+            }
+        }
     }
 
     private fun starVoveSession(token: String) {
         //set locale
+        val btn3: Button = findViewById(R.id.buttonVoveId)
+        btn3.isEnabled = true
+
+
         Vove.setLocale(this, VoveLocale.AR_MA)
         Vove.setEnableVocalGuidance(true) // Enable vocal guidance
 
@@ -403,12 +360,6 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-interface VerificationService {
-
-
-    @POST("sessions")
-    fun verificationToken(@Body tokenRequest: TokenRequest): Call<TokenResponse>
-}
 
 @Serializable
 data class TokenResponse(

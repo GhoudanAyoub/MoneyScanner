@@ -21,3 +21,5 @@
 #-renamesourcefileattribute SourceFile
 
 -keep class pl.droidsonroids.gif.** {*;}
+-dontwarn retrofit2.**
+-keep class retrofit2.** { *; }

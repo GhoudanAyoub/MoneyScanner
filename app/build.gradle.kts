@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.com.android.application)
     alias(libs.plugins.org.jetbrains.kotlin.android)
     alias(libs.plugins.com.hilt)
+    id( "kotlin-kapt")
     kotlin("plugin.serialization") version "1.9.22"
 
 }
@@ -55,7 +56,7 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
     implementation(libs.hilt)
-    annotationProcessor(libs.hilt.compiler)
+    kapt(libs.hilt.compiler)
 
     implementation(libs.kotlinx.serialization)
     implementation(libs.kotlinx.serialization.converter)
@@ -68,7 +69,7 @@ dependencies {
     implementation(libs.ui)
     implementation(libs.feature)
     implementation(libs.coroutines)
-
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
 
     implementation("org.apache.httpcomponents:httpmime:4.3.6") {
         exclude(module = "httpclient")
