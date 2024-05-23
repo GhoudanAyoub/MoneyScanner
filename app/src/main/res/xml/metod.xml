@@ -1,0 +1,7 @@
+<input-method xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Specify the class name of the custom keyboard -->
+    <subclass android:name=".CustomKeyboardView" />
+
+<!--     <settings android:activity="com.chari.money.MainActivity" />-->
+
+</input-method>

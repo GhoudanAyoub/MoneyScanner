@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="Chari_Money_Scanner.app" target="17" />
+      <module name="Chari_Money_Scanner.feature.data" target="17" />
+      <module name="Chari_Money_Scanner.testing.data" target="17" />
+      <module name="Chari_Money_Scanner.testing.domain" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

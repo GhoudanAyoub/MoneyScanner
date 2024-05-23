@@ -1,0 +1,29 @@
+
+I
+gradle/libs.versions.toml,d/7/d7595319a0658be6f1ed500ad590d42e4b28bc4f
+@
+build.gradle.kts,d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d
+D
+app/build.gradle.kts,d/2/d2a4383452aad84a18429a5844d31330a012a9e6
+C
+settings.gradle.kts,7/4/749edfcc96398253e5b3416184e95c46621da850
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+F
+app/proguard-rules.pro,9/e/9e08934d811afe28fbc77aaa3c0d747b94348db9
+@
+local.properties,0/7/0712df971a99ac4d2fccb8e0fb19f377f3374cca
+a
+1app/src/main/java/com/chari/money/MainActivity.kt,d/a/da2fb6efad04890b9978e3831d899a67c6481131
+[
++app/src/main/java/com/chari/money/DslApp.kt,e/2/e215ad1a40731e922f23ddbe069a9cfa11c33132
+A
+gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+O
+testing/domain/build.gradle.kts,1/5/1523410988edb1bcb2d2e4360468f5e9592af3d9
+M
+feature/data/build.gradle.kts,7/e/7e115bdd342d7fc777f80200d3e7fd80ac513eaf
+j
+:app/src/main/java/com/chari/money/CustomKeyboardService.kt,9/a/9ac22dd3e40bbaf9786530513cab56393c2d3df2
