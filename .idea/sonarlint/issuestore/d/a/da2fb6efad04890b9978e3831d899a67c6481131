@@ -1,19 +1,27 @@
 
-rkotlin:S108J")Either remove or fill this block of code.(€¸¦’üÿÿÿÿ8í±¦’õ1J$709c2b9c-d217-452e-9450-0cf20e794d79
-^kotlin:S1128"Remove this unused import.(Ş‚½8‡Ç¦’õ1J$998a8bde-256a-40d8-ba6f-6e036f0f1e4f
-dkotlin:S1128"Remove this unused import.(Ô¼³úÿÿÿÿÿ8ù±¦’õ1J$5ad9ce8c-894e-4469-85f3-a9ec1aad7c5e
-_kotlin:S1128"Remove this unused import.( ¯–8û±¦’õ1J$e9e0501a-326e-4e8a-b0ec-96a6d4d9420c
-_kotlin:S1128
-"Remove this unused import.(˜»ˆ8ü±¦’õ1J$662ad492-438c-4930-bc89-4f8e12b5d591
-dkotlin:S1128"Remove this unused import.(úœË§ıÿÿÿÿ8ş±¦’õ1J$ffddb9c5-f745-4c49-917f-5b3c9ef925d3
-dkotlin:S1128"Remove this unused import.(óñÔ¼ûÿÿÿÿ8‰Ç¦’õ1J$97430a79-80b6-4bae-9311-adf7617eedc5
-_kotlin:S1128"Remove this unused import.(³¥Æû8‰Ç¦’õ1J$6139bde9-1c4e-46fb-ab72-6d468d17d7ac
-dkotlin:S1128"Remove this unused import.(‚×Üàúÿÿÿÿ8ŠÇ¦’õ1J$8e06af0e-1cc2-42dc-b54c-6e0a843cd5fa
-dkotlin:S1128"Remove this unused import.(ÄéËˆÿÿÿÿÿ8ŠÇ¦’õ1J$8c72b82b-74cf-4cfb-860e-369a03dc55c5
-dkotlin:S1128"Remove this unused import.(’Ã¿õüÿÿÿÿ8İ¡©’õ1J$607ee588-dc8b-430a-89d7-4cbf93650fae
-_kotlin:S1128"Remove this unused import.(“÷ïå8ÿ±¦’õ1J$1558bc06-5cab-4291-b3f1-031088ba8e3f
-_kotlin:S1128"Remove this unused import.(Ì©î¸8Ò§¨’õ1J$4ee41b86-2fc9-4852-bc03-faca3e7ffcf6
-_kotlin:S1128"Remove this unused import.(äÓßã8²¦’õ1J$56df99e7-0b6c-4403-8876-54f2a96728ec
-dkotlin:S1128"Remove this unused import.( í»Òùÿÿÿÿ8²¦’õ1J$703fc2d4-2a81-4d72-ab60-7de661087608
-dkotlin:S1128"Remove this unused import.(‘”ˆ’üÿÿÿÿ8‚²¦’õ1J$6bf0953a-0cf2-48cb-9f65-f1ff1367b215
-dkotlin:S1128"Remove this unused import.(ˆîáüÿÿÿÿ8‚²¦’õ1J$843df755-2510-45f6-bf2d-596afd7befea
+˜kotlin:S117ª"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ƒ¿õ¤ıÿÿÿÿ8Šêğ§ú1J$4faf1b98-7214-4466-8e9e-e7888839dc34
+˜kotlin:S117«"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(Æ ÿıÿÿÿÿÿ8Œêğ§ú1J$213e3195-db0f-4569-8420-9513342f9807
+˜kotlin:S117¬"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(¦¨¬èşÿÿÿÿ8êğ§ú1J$860ac635-ea08-44d8-b015-bf8951aa6e2b
+—kotlin:S117µ"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(¨£ß:8†õì§ú1J$8a49f9d8-2cec-404d-8b19-97059e5f10a5
+kotlin:S117¶"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(éÚ²Ğûÿÿÿÿ8‡õì§ú1J$a56f891e-5fb5-4599-86b6-3ded8b01d9ef
+kotlin:S117·"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(”â‹¯ûÿÿÿÿ8‰õì§ú1J$ad7865ff-bc12-47cb-b55b-b55a55bb6037
+˜kotlin:S117¹"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ŠÈ¥ô8Šõì§ú1J$c1198f1c-a2a1-49c5-ab01-34a87004c4c4
+—kotlin:S117»"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ùÔô8‹õì§ú1J$5f91447f-e85c-404d-adc9-08867a211f25
+—kotlin:S117Ò"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(¨£ß:8õì§ú1J$f7581157-6b19-4e70-a427-280b30cbf426
+kotlin:S117Ó"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(éÚ²Ğûÿÿÿÿ8õì§ú1J$e129dd88-fc45-4a1e-b06f-44405a1621d8
+˜kotlin:S117Ô"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ÎíÖ•8‘õì§ú1J$c04c8fff-95ad-42d1-bb84-4d7d9425ac98
+kotlin:S117×"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(§¦±ùøÿÿÿÿ8‘õì§ú1J$ee29dd11-76d9-49f1-b7ce-8365ced554e8
+kotlin:S117Ş"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ÚÕ³·øÿÿÿÿ8‘õì§ú1J$dba9485a-dcbd-453d-88b5-44944c4c4649
+—kotlin:S117Å"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(¨£ß:8’õì§ú1J$aeb748f9-dcce-49c7-83c9-a9a5db89bfe0
+kotlin:S117Æ"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(éÚ²Ğûÿÿÿÿ8’õì§ú1J$29683acc-ba67-4678-8ba2-a2aeaeba8087
+…kotlin:S1144º"?Remove this unused private "launchVerificationActivity" method.(©«àÑ8êİè§ú1J$cbb6e585-ddf3-4af3-941f-deaf20728978
+skotlin:S108ç")Either remove or fill this block of code.(€¸¦’üÿÿÿÿ8òİè§ú1J$6f91c4d0-408c-4bfa-901d-6f885dea83ed
+fkotlin:S6530¼"Remove this unchecked cast.(Ûáæ–ıÿÿÿÿ8²í§ú1J$c7c42124-1dc7-4be7-8a62-825f977a3243
+{kotlin:S1481Ó"0Remove this unused "StatusLabel" local variable.(éÚ²Ğûÿÿÿÿ8¸õì§ú1J$84c98d1f-a2ba-4541-8ef3-159ccd521bfd
+tkotlin:S1481Ò"/Remove this unused "StatusCode" local variable.(¨£ß:8¹õì§ú1J$4aafe8ab-3358-4294-b613-0fcd55de78f5
+{kotlin:S1481¶"0Remove this unused "StatusLabel" local variable.(éÚ²Ğûÿÿÿÿ8»õì§ú1J$79647deb-3e8b-41d5-a16c-6ec6d36d8651
+tkotlin:S1481µ"/Remove this unused "StatusCode" local variable.(¨£ß:8¼õì§ú1J$c382393f-9a9a-44fe-8353-cbc8a0a3605a
+tkotlin:S1481¼")Remove this unused "uuid" local variable.(Å¤ÜĞøÿÿÿÿ8úİè§ú1J$47b36cdf-7169-4b5d-971a-88c133476f41
+_kotlin:S1128"Remove this unused import.(´â 8ŠÇ¦’õ1J$3f1a9392-0136-446b-8141-cecf5412dc23
+nkotlin:S1874¼"#Deprecated code should not be used.(Ûáæ–ıÿÿÿÿ8Íí§ú1J$dd46888a-e212-4382-b2c3-aeff8d4ef5d2
+ˆkotlin:S6517–"BMake this interface functional or replace it with a function type.(”î«³8Şè§ú1J$0c47410e-fe38-47f3-9e88-dfc16f5a9363

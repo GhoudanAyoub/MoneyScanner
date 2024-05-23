@@ -13,6 +13,42 @@
         android:gravity="center_vertical"
         android:layout_gravity="center">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SkyID IndataCore"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="32dp"/>
+        <Button
+            android:id="@+id/button_DocOcerization"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="56dp"
+            android:layout_marginEnd="56dp"
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Document Analysis"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/button_feceRec"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="56dp"
+            android:layout_marginEnd="56dp"
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Face Recogniser"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
 
         <TextView
             android:id="@+id/textView_label"
@@ -42,6 +78,16 @@
             android:visibility="visible"
             android:textSize="32dp"/>
 
+
+        <EditText
+            android:id="@+id/tokenEText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_margin="8dp"
+            android:visibility="gone"
+            android:hint="Token" />
 
         <Button
             android:id="@+id/buttonVoveId"
